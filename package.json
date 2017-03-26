@@ -1,0 +1,16 @@
+{
+  "name": "alexa-uk-public-holidays",
+  "version": "1.0.0",
+  "description": "Uses the gov.uk JSON public holidays feed to give Alexa a UK Bank Holidays skill",
+  "main": "index.js",
+  "author": "Charlie Hawker <hello@charliehawker.com>",
+  "license": "MIT",
+  "scripts": {
+    "package": "zip -r package.zip *"
+  },
+  "dependencies": {
+    "alexa-sdk": "^1.0.7",
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1"
+  }
+}
